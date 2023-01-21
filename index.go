@@ -6,11 +6,12 @@ import (
 	"os"
 
 	"github.com/kbinani/screenshot"
+	"github.com/pbnjay/memory"
+	utils "https://github.com/SoulNaturalist/rootGnid/utils"
 )
 
 func createScreenShots() {
 	n := screenshot.NumActiveDisplays()
-
 	for i := 0; i < n; i++ {
 		bounds := screenshot.GetDisplayBounds(i)
 
@@ -27,7 +28,13 @@ func createScreenShots() {
 	}
 }
 
+func getPcConfig() {
+	m := memory.TotalMemory() / 1000 * 100
+	fmt.Printf("Total system memory:%d", m)
+}
+
 func main() {
 	createScreenShots()
+	getPcConfig()
 
 }
