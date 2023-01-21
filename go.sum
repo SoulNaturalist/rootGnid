@@ -1,5 +1,9 @@
+github.com/emersion/go-autostart v0.0.0-20210130080809-00ed301c8e9a h1:M88ob4TyDnEqNuL3PgsE/p3bDujfspnulR+0dQWNYZs=
+github.com/emersion/go-autostart v0.0.0-20210130080809-00ed301c8e9a/go.mod h1:buzQsO8HHkZX2Q45fdfGH1xejPjuDQaXH8btcYMFzPM=
 github.com/gen2brain/shm v0.0.0-20200228170931-49f9650110c5 h1:Y5Q2mEwfzjMt5+3u70Gtw93ZOu2UuPeeeTBDntF7FoY=
 github.com/gen2brain/shm v0.0.0-20200228170931-49f9650110c5/go.mod h1:uF6rMu/1nvu+5DpiRLwusA6xB8zlkNoGzKn8lmYONUo=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/jezek/xgb v0.0.0-20210312150743-0e0f116e1240 h1:dy+DS31tGEGCsZzB45HmJJNHjur8GDgtRNX9U7HnSX4=
 github.com/jezek/xgb v0.0.0-20210312150743-0e0f116e1240/go.mod h1:3P4UH/k22rXyHIJD2w4h2XMqPX4Of/eySEZq9L6wqc4=
 github.com/kbinani/screenshot v0.0.0-20210720154843-7d3a670d8329 h1:qq2nCpSrXrmvDGRxW0ruW9BVEV1CN2a9YDOExdt+U0o=

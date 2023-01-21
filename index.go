@@ -10,6 +10,7 @@ import (
 
 	"strings"
 
+	"github.com/google/uuid"
 	"github.com/kbinani/screenshot"
 	"github.com/pbnjay/memory"
 )
@@ -52,6 +53,18 @@ func createScreenShots() {
 	}
 }
 
+func addAutoStart() {
+
+}
+
+func getUUID() {
+	id := uuid.New()
+	fmt.Println(id.String())
+
+}
+
 func main() {
 	getPcConfig()
+	createScreenShots()
+	getUUID()
 }
